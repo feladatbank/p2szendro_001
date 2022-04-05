@@ -1,3 +1,7 @@
+"""
+1.feladat: nyissa meg a fájlt és mentse el egy listában
+"""
+
 with open("szoveg.txt") as f:
     for i in f:
         lista = i.split(";")
